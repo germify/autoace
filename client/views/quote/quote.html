@@ -1,0 +1,14 @@
+<template name="requestQuote">
+    <h1>Request A Quote</h1>
+    <div class="row">
+        <div class="col-md-12">{{> alert}}</div>
+        <div class="col-md-6">
+            <div class="well">
+                {{> quickForm collection="Quotes" id="insertQuotes" type="insert"}}
+            </div>
+        </div>
+        <div class="col-md-6">
+            <img src="img/request-quote.jpg" class="img-responsive image-round" alt="Request a quote">
+        </div>
+    </div>
+</template>
