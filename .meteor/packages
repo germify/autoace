@@ -35,9 +35,6 @@ yogiben:autoform-map@0.0.2
 multiply:iron-router-progress
 manuelschoebel:ms-seo
 spiderable
-accounts-facebook
-accounts-google
-accounts-twitter
 bootstrap
 accounts-ui
 jparker:gravatar

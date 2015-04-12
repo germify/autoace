@@ -1,5 +1,6 @@
 Accounts.config
-	sendVerificationEmail : true
+	sendVerificationEmail: true
+	forbidClientAccountCreation: true
 
 if Meteor.isClient
 	Meteor.startup ->
